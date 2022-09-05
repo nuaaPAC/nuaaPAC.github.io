@@ -23,59 +23,30 @@
       </header>
       <section>
        <h1>精密驱动与控制课题组</h1>
-<table class="imgtable"><tr><td>
-<p><a href="#tab1">研究方向</a></p>
-</td>
-<td>
-<p><a href="#tab2">研究项目</a></p>
-</td>
-<td>
-<p><a href="#tab3">研究成果</a></p>
-</td>
-<td>
-<p><a href="#tab4">研究团队</a></p>
-</td>
-<td>
-<p><a href="#tab5">联系我们</a></p>
-</td></tr></table>
-<h2> 最新资讯 </h2>
-        <table>
-          <tbody>
-        <tr>
-            <th>ID</th>
-        <th>Name</th>
-        <th>Rank</th>
-          </tr>
-          <tr>
-            <td>1</td>
-        <td>Tom Preston-Werner</td>
-        <td>Awesome</td>
-          </tr>
-          <tr>
-            <td>2</td>
-        <td>Albert Einstein</td>
-        <td>Nearly as awesome</td>
-          </tr>
-        </tbody>
-        </table>
-	
-       <div id="tab1" class="tab_content">
-       <h1>This is pageA.</h1>
-     </div>
-     <div id="tab2" class="tab_content">
-       <h1>This is pageB.</h1>
-     </div>
-     <div id="tab3" class="tab_content">
-       <h1>This is pageC.</h1>
-      </div>
-     <div id="tab4" class="tab_content">
-       <h1>This is pageD.</h1>
-     </div>
-     <div id="tab5" class="tab_content">
-       <h1>This is pageE.</h1>
-     </div>
-	      
-	      
+<ul class="tabs" data-tab>
+  <li class="tab-title active"><a href="#home">Home</a></li>
+  <li class="tab-title"><a href="#menu1">Menu 1</a></li>
+  <li class="tab-title"><a href="#menu2">Menu 2</a></li>
+  <li class="tab-title"><a href="#menu3">Menu 3</a></li>
+</ul>
+<div class="tabs-content">
+  <div class="content active" id="home">
+    <h3>HOME</h3>
+    <p>Home is where the heart is..</p>
+  </div>
+  <div class="content" id="menu1">
+    <h3>Menu 1</h3>
+    <p>Some text, blabla</p>
+  </div>
+  <div class="content" id="menu2">
+    <h3>Menu 2</h3>
+    <p>Some other text.</p>
+  </div>
+  <div class="content" id="menu3">
+    <h3>Menu 3</h3>
+    <p>Last tab.</p>
+  </div>
+</div>
       </section>
       <footer>
         <p>This project is maintained by <a href="http://github.com/orderedlist">Steve Smith</a></p>
@@ -83,6 +54,12 @@
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    <script src="javascripts/Picture-Rolling.js"></script>
+
+<!-- Initialize Foundation JS -->
+<script>
+$(document).ready(function() {
+    $(document).foundation();
+})
+</script>
   </body>
 </html>
