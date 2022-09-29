@@ -1,5 +1,5 @@
 const img = document.querySelector('.slideshow img');
-const arr = ['./images/1_inchworm.png', './images/2_MDMA.png', './images/3_stage.png', './images/4_three_rhombus_RCM.png', './images/5.png'];
+const arr = ['./images/1.png', './images/2.png', './images/3.png', './images/4.png', './images/5.png'];
 const points = document.querySelectorAll('.point')
 
 let index = 1;
